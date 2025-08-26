@@ -2,30 +2,23 @@
 
 Este projeto é uma API REST simples feita com Node.js, Express e Axios, que consome dados da OpenWeatherMap API para retornar informações do clima atual de cidades no mundo todo.
 
-#Funcionalidades#
+# Funcionalidades
 
 Consulta do clima de uma cidade específica (/weather)
-
 Consulta do clima de múltiplas cidades (/multiple)
-
 Alerta de temperatura baseado na cidade (/alert)
 
-Requisitos
+# Requisitos
 
 Antes de rodar o projeto, você precisa ter instalado:
 
 Node.js
-
 npm (instalado junto com o Node)
 
-Instalação e Execução
-
-Siga os passos abaixo para rodar o projeto localmente:
-
-Clone o repositório:
-
+# Clone o repositório:
+`
 git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+cd seu-repositorio`
 
 
 Instale as dependências:
