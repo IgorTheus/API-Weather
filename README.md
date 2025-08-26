@@ -27,9 +27,11 @@ cd seu-repositorio
 # Instale as dependências:
 
 Execute o seguinte comando para instalar as dependências:
+
 `
 npm install express axios cors
 `
+
 Inicie o servidor:
 
 `
