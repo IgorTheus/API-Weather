@@ -58,12 +58,12 @@ Consulta o clima atual de uma cidade específica.
 
 Parâmetros (query):
 
-city: Nome da cidade (ex: Sao Paulo)
+city: Nome da cidade (ex: Campinas)
 
 country: Código do país (ex: BR)
 
 Exemplo:
-http://localhost:3000/weather?city=Sao Paulo&country=BR
+http://localhost:3000/weather?city=Campinas&country=BR
 
 # 🔹 /multiple
 
@@ -71,10 +71,10 @@ Consulta o clima de múltiplas cidades de uma só vez.
 
 Parâmetro (query):
 
-cities: Lista de cidades separadas por vírgulas (ex: Sao Paulo,Rio de Janeiro,Belo Horizonte)
+cities: Lista de cidades separadas por vírgulas (ex: Campinas, Valinhos e Indaiatuba)
 
 Exemplo:
-http://localhost:3000/multiple?cities=Sao Paulo,Rio de Janeiro,Belo Horizonte
+http://localhost:3000/multiple?cities=Campinas,Valinhos,Indaiatuba
 
 # 🔹 /alert
 
