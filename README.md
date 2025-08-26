@@ -20,32 +20,37 @@ npm (instalado junto com o Node)
 # Clone o repositório:
 `
 git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio`
+cd seu-repositorio
+`
 
 
-Instale as dependências:
+# Instale as dependências:
 
 Execute o seguinte comando para instalar as dependências:
-
-npm install
-
-
+`
+npm install express axios cors
+`
 Inicie o servidor:
 
-Após instalar as dependências, execute o servidor com:
-
+`
 node index.js
-
+`
 
 O servidor será iniciado e estará disponível em http://localhost:3000.
 
-API Key
+# API Key
 
 Este projeto utiliza a OpenWeatherMap API. Você devera criar uma conta no site deles e gerar uma chave
 
-Rotas Disponíveis
+# O código possui três rotas principais:
 
-🔹 /weather
+/weather: Para consultar o clima de uma única cidade.
+
+/multiple: Para consultar o clima de várias cidades.
+
+/alert: Para gerar um alerta de temperatura com base na cidade.
+
+# 🔹 /weather
 
 Consulta o clima atual de uma cidade específica.
 
@@ -58,7 +63,7 @@ country: Código do país (ex: BR)
 Exemplo:
 http://localhost:3000/weather?city=Sao Paulo&country=BR
 
-🔹 /multiple
+# 🔹 /multiple
 
 Consulta o clima de múltiplas cidades de uma só vez.
 
@@ -69,7 +74,7 @@ cities: Lista de cidades separadas por vírgulas (ex: Sao Paulo,Rio de Janeiro,B
 Exemplo:
 http://localhost:3000/multiple?cities=Sao Paulo,Rio de Janeiro,Belo Horizonte
 
-🔹 /alert
+# 🔹 /alert
 
 Retorna um alerta de temperatura baseado na cidade consultada:
 
@@ -87,21 +92,3 @@ country: Código do país
 
 Exemplo:
 http://localhost:3000/alert?city=Curitiba&country=BR
-
-Estrutura do Código
-
-Aqui está um breve resumo de como o código está organizado:
-
-Express é utilizado para criar o servidor e lidar com as rotas.
-
-Axios é usado para fazer as requisições à API da OpenWeatherMap.
-
-CORS é ativado para permitir que o servidor seja acessado de diferentes origens.
-
-O código possui três rotas principais:
-
-/weather: Para consultar o clima de uma única cidade.
-
-/multiple: Para consultar o clima de várias cidades.
-
-/alert: Para gerar um alerta de temperatura com base na cidade.
