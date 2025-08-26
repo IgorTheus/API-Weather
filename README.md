@@ -5,7 +5,9 @@ Este projeto é uma API REST simples feita com Node.js, Express e Axios, que con
 # Funcionalidades
 
 Consulta do clima de uma cidade específica (/weather)
+
 Consulta do clima de múltiplas cidades (/multiple)
+
 Alerta de temperatura baseado na cidade (/alert)
 
 # Requisitos
