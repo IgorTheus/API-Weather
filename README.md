@@ -1,8 +1,8 @@
-Weather API - Consulta de Clima com Node.js
+# Weather API - Consulta de Clima com Node.js
 
 Este projeto é uma API REST simples feita com Node.js, Express e Axios, que consome dados da OpenWeatherMap API para retornar informações do clima atual de cidades no mundo todo.
 
-Funcionalidades
+#Funcionalidades#
 
 Consulta do clima de uma cidade específica (/weather)
 
@@ -49,6 +49,7 @@ API Key
 Este projeto utiliza a OpenWeatherMap API. Você devera criar uma conta no site deles e gerar uma chave
 
 Rotas Disponíveis
+
 🔹 /weather
 
 Consulta o clima atual de uma cidade específica.
