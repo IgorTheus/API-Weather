@@ -66,7 +66,7 @@ Exemplo de input:
 http://localhost:3000/weather?city=Campinas&country=BR
 
 Exemplo de output:
-`
+<code>
 {
   "temperature": 20.89,
   "humidity": 78,
@@ -74,7 +74,7 @@ Exemplo de output:
   "rainChance": 0,
   "weatherCondition": "céu limpo"
 }
-`
+</code>
 
 # 🔹 /multiple
 
