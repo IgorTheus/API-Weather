@@ -66,8 +66,8 @@ Exemplo de input:
 http://localhost:3000/weather?city=Campinas&country=BR
 
 Exemplo de output:
-<code>
-{
+
+<code>{
   "temperature": 20.89,
   "humidity": 78,
   "windSpeed": 24.084000000000003,
@@ -88,8 +88,8 @@ Exemplo de input:
 http://localhost:3000/multiple?cities=Campinas,Valinhos,Indaiatuba
 
 Exemplo de output:
-`
-[
+
+<code>[
   {
     "city": "Campinas",
     "temperature": 19.89,
@@ -106,7 +106,7 @@ Exemplo de output:
     "weather": "céu limpo"
   }
 ]
-`
+</code>
 
 # 🔹 /alert
 
@@ -128,10 +128,10 @@ Exemplo de input:
 http://localhost:3000/alert?city=Curitiba&country=BR
 
 Exemplo de output:
-`
-{
+
+<code>{
   "city": "Curitiba",
   "temperature": 15.46,
   "alert": "Agradavel"
 }
-`
+</code>
