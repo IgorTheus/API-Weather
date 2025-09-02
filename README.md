@@ -62,8 +62,19 @@ city: Nome da cidade (ex: Campinas)
 
 country: Código do país (ex: BR)
 
-Exemplo:
+Exemplo de input:
 http://localhost:3000/weather?city=Campinas&country=BR
+
+Exemplo de output:
+`
+{
+  "temperature": 20.89,
+  "humidity": 78,
+  "windSpeed": 24.084000000000003,
+  "rainChance": 0,
+  "weatherCondition": "céu limpo"
+}
+`
 
 # 🔹 /multiple
 
@@ -73,8 +84,29 @@ Parâmetro (query):
 
 cities: Lista de cidades separadas por vírgulas (ex: Campinas, Valinhos e Indaiatuba)
 
-Exemplo:
+Exemplo de input:
 http://localhost:3000/multiple?cities=Campinas,Valinhos,Indaiatuba
+
+Exemplo de output:
+`
+[
+  {
+    "city": "Campinas",
+    "temperature": 19.89,
+    "weather": "céu limpo"
+  },
+  {
+    "city": "Valinhos",
+    "temperature": 19.87,
+    "weather": "céu limpo"
+  },
+  {
+    "city": "Indaiatuba",
+    "temperature": 20.3,
+    "weather": "céu limpo"
+  }
+]
+`
 
 # 🔹 /alert
 
@@ -92,5 +124,14 @@ city: Nome da cidade
 
 country: Código do país
 
-Exemplo:
+Exemplo de input:
 http://localhost:3000/alert?city=Curitiba&country=BR
+
+Exemplo de output:
+`
+{
+  "city": "Curitiba",
+  "temperature": 15.46,
+  "alert": "Agradavel"
+}
+`
