@@ -52,7 +52,7 @@ Este projeto utiliza a OpenWeatherMap API. Você devera criar uma conta no site 
 
 /alert: Para gerar um alerta de temperatura com base na cidade.
 
-# 🔹 /weather
+#  /weather
 
 Consulta o clima atual de uma cidade específica.
 
@@ -76,7 +76,7 @@ Exemplo de output:
 }
 </code>
 
-# 🔹 /multiple
+#  /multiple
 
 Consulta o clima de múltiplas cidades de uma só vez.
 
@@ -108,7 +108,7 @@ Exemplo de output:
 ]
 </code>
 
-# 🔹 /alert
+#  /alert
 
 Retorna um alerta de temperatura baseado na cidade consultada:
 
