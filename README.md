@@ -68,7 +68,7 @@ http://localhost:3000/weather?city=Campinas&country=BR
 Exemplo de output:
 `
 {
-  "temperature": 20.89,
+  "temperature": 20.89,<br></br>
   "humidity": 78,
   "windSpeed": 24.084000000000003,
   "rainChance": 0,
